@@ -1,0 +1,7 @@
+set number
+set relativenumber
+syntax on
+set tabstop=4 shiftwidth=4 expandtab
+set mouse=a
+set nowrap
+hi Normal guibg=NONE ctermbg=NONE
