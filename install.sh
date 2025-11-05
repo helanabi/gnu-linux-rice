@@ -11,3 +11,4 @@ ln -s "$PWD/i3status" "$CONFIG/i3status/config"
 mkdir -p "$CONFIG/nvim"
 ln -s "$PWD/nvim" "$CONFIG/nvim/init.vim"
 
+ln -s "$PWD/git" "$HOME/.gitconfig"

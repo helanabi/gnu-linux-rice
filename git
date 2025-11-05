@@ -1,0 +1,9 @@
+[init]
+	defaultBranch = master
+[user]
+	name = Hassan El anabi
+	email = abulkeram@proton.me
+[core]
+	editor = nvim
+[color]
+	ui = auto
