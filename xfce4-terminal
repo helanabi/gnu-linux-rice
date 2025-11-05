@@ -1,0 +1,10 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-terminal" version="1.0">
+  <property name="scrolling-bar" type="string" value="TERMINAL_SCROLLBAR_NONE"/>
+  <property name="misc-cursor-shape" type="string" value="TERMINAL_CURSOR_SHAPE_UNDERLINE"/>
+  <property name="background-mode" type="string" value="TERMINAL_BACKGROUND_TRANSPARENT"/>
+  <property name="font-name" type="string" value="Monospace 10"/>
+  <property name="misc-menubar-default" type="bool" value="false"/>
+  <property name="background-darkness" type="double" value="0.75"/>
+</channel>
