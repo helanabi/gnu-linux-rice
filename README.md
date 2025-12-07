@@ -19,11 +19,16 @@ My lightweight GNU/Linux setup using Archlinux, i3, and minimal utilities.
 - Terminal Emulator: [XFCE4 Terminal](https://docs.xfce.org/apps/terminal/start)
 - Text Editors: [GNU Emacs](https://www.gnu.org/software/emacs/), [NeoVim](https://neovim.io)
 
+## Requirements ##
+
+- `Git`: for cloning this repository.
+- `Sudo`: for applying system-wide configuration.
+
 ## Installation ##
 
 1. `git clone https://github.com/helanabi/gnu-linux-rice.git ~/rice`
 2. `cd ~/rice`
-3. (Optional) `sudo pacman -Syu --needed $(<pkgs)`
+3. (As root) `cp sudo /etc/sudoers.d/hassan`
 4. `./install.sh`
 
 ## Screenshot ##
