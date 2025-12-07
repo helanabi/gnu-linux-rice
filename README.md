@@ -11,13 +11,13 @@ My lightweight GNU/Linux setup using Archlinux, i3, and minimal utilities.
 
 ## Overview ##
 
-- **Window Manager**: [i3-wm](https://i3wm.org)
-- **Status bar**: [i3status](https://i3wm.org/i3status/)
-- **Program Launcher**: [Dmenu](https://tools.suckless.org/dmenu/)
-- **Window Compositor**: [Picom](https://picom.app)
-- **Wallpaper setter**: [Feh](https://feh.finalrewind.org/)
-- **Terminal Emulator**: [XFCE4 Terminal](https://docs.xfce.org/apps/terminal/start)
-- **Text Editor**: [NeoVim](https://neovim.io)
+- Window Manager: [i3-wm](https://i3wm.org)
+- Status bar: [i3status](https://i3wm.org/i3status/)
+- Program Launcher: [Dmenu](https://tools.suckless.org/dmenu/)
+- Window Compositor: [Picom](https://picom.app)
+- Wallpaper setter: [Feh](https://feh.finalrewind.org/)
+- Terminal Emulator: [XFCE4 Terminal](https://docs.xfce.org/apps/terminal/start)
+- Text Editors: [GNU Emacs](https://www.gnu.org/software/emacs/), [NeoVim](https://neovim.io)
 
 ## Installation ##
 
