@@ -1,0 +1,5 @@
+backend = "glx";
+fading = false;
+fade-in-step = 0.00;
+fade-out-step = 0.00;
+fade-exclude = [];

@@ -194,5 +194,5 @@ bar {
 exec --no-startup-id feh --no-fehbg -z --bg-fill ~/pics/wallpapers
 
 # Launch compositor
-exec --no-startup-id picom --no-fading-openclose
+exec --no-startup-id picom
 
