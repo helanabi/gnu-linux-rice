@@ -28,3 +28,5 @@ ln -s "$PWD/emacs" "$HOME/.emacs"
 
 mkdir -p "$CONFIG/picom"
 ln -s "$PWD/picom" "$CONFIG/picom/picom.conf"
+
+ln -s "$PWD/bash" "$HOME/.bashrc"
