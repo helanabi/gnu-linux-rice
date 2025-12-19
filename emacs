@@ -5,9 +5,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(column-number-mode t)
- '(custom-enabled-themes '(deeper-blue))
+ '(custom-enabled-themes '(modus-vivendi-deuteranopia))
  '(desktop-save-mode t)
- '(fringe-mode '(nil . 0) nil (fringe))
+ '(fringe-mode '(5 . 0) nil (fringe))
  '(menu-bar-mode nil)
  '(save-place-mode t)
  '(scroll-bar-mode nil)
@@ -20,4 +20,5 @@
  '(default ((t (:family "Monospace" :height 100)))))
 
 ;; Other settings
+(add-to-list 'default-frame-alist '(alpha . (85 . 85)))
 (setq make-backup-files nil)
