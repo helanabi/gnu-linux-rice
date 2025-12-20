@@ -19,6 +19,9 @@
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "Monospace" :height 100)))))
 
-;; Other settings
+;; Other ui settings
 (add-to-list 'default-frame-alist '(alpha . (85 . 85)))
+(context-menu-mode 1)
+
+;; Misc settings
 (setq make-backup-files nil)
