@@ -25,3 +25,4 @@
 
 ;; Misc settings
 (setq make-backup-files nil)
+(windmove-default-keybindings) ; Shift+arrow keys
