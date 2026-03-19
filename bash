@@ -14,12 +14,18 @@ alias ll='ls -lah'
 alias ls='ls --color=auto'
 alias py='python'
 alias recon='sudo systemctl restart NetworkManager'
+alias sdcv='sdcv --color'
 alias susp='systemctl suspend'
 alias tree='tree -C'
 alias view='nvim -R'
 alias clip='xclip -sel clipboard'
 
-mkbkp() {
+function mkbkp {
     tar -cz  ~/.ssh ~/docs ~/notes ~/pics/personal |
 	gpg -c --cipher-algo AES256 > ~/tmp/backup-$(date +%F).tgz.gpg
+}
+
+function wuqut {
+    out="$(tail -1 ~/.local/share/wuqut/data.csv | tr ',' '\n')\n"
+    grep -C10 "$(date +%H):.." <(printf "$out") || printf "$out"
 }
