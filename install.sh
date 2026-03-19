@@ -32,3 +32,5 @@ ln -s "$PWD/picom" "$CONFIG/picom/picom.conf"
 ln -sf "$PWD/bash" "$HOME/.bashrc"
 
 ln -sf "$PWD/bash_profile" "$HOME/.bash_profile"
+
+ln -s "$PWD/terminal-weather" "$CONFIG/terminal-weather/conf"
