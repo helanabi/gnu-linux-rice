@@ -9,6 +9,8 @@ sudo cp "$PWD/xorg-keyboard" "/etc/X11/xorg.conf.d/00-keyboard.conf"
 
 ## User config ##
 
+echo "exec i3" > ~/.xinitrc
+
 mkdir -p "$CONFIG/i3"
 ln -s "$PWD/i3" "$CONFIG/i3/config"
 
