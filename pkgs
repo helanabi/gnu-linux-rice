@@ -10,9 +10,7 @@ feh
 firefox
 flameshot
 git
-gnome-keyring
 grub
-htop
 i3-wm
 i3lock
 i3status
@@ -21,7 +19,6 @@ jq
 linux
 linux-firmware
 linux-headers
-lsb-release
 man-db
 man-pages
 mpv
@@ -36,7 +33,6 @@ pipewire-pulse
 python
 python-pip
 python-pipx
-rsync
 sdcv
 shellcheck
 sudo
@@ -49,5 +45,4 @@ wget
 xclip
 xfce4-terminal
 xorg
-xterm
 zip
