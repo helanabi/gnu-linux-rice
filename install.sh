@@ -33,4 +33,5 @@ ln -sf "$PWD/bash" "$HOME/.bashrc"
 
 ln -sf "$PWD/bash_profile" "$HOME/.bash_profile"
 
+mkdir -p "$CONFIG/terminal-weather"
 ln -s "$PWD/terminal-weather" "$CONFIG/terminal-weather/conf"
