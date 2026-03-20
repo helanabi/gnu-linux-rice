@@ -44,5 +44,9 @@ usbutils
 wget
 xclip
 xfce4-terminal
-xorg
+xorg-server
+xorg-setxkbmap
+xorg-xinput
+xorg-xinit
+xorg-xrandr
 zip
