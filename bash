@@ -9,6 +9,7 @@ PS1='\[\e[1m\]\[\e[36m\]\w\[\e[0m\]\$ '
 
 
 alias diff='diff --color=auto'
+alias e='setsid emacs'
 alias grep='grep --color=auto'
 alias ll='ls -lah'
 alias ls='ls --color=auto'
