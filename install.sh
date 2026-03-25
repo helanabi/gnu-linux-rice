@@ -7,6 +7,12 @@ CONFIG="$HOME/.config"
 sudo pacman -Syu --needed $(<pkgs)
 sudo cp "$PWD/xorg-keyboard" "/etc/X11/xorg.conf.d/00-keyboard.conf"
 sudo cp "$PWD/xorg-touchpad" "/etc/X11/xorg.conf.d/30-touchpad.conf"
+
+# Fan issue mitigation for Dell Precision 3541
+# dell_smm_hwmon forces manual PWM and breaks BIOS fan curve
+echo "blacklist dell_smm_hwmon" |
+    sudo tee /etc/modprobe.d/blacklist-dell-smm.conf
+
 sudo systemctl enable --now tlp thermald
 
 ## User config ##
