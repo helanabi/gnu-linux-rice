@@ -47,3 +47,6 @@ mkdir -p "$CONFIG/terminal-weather"
 ln -s "$PWD/terminal-weather" "$CONFIG/terminal-weather/conf"
 
 ln -s "$PWD/sdcv_ordering" "$CONFIG/"
+
+printf "Note: Open Firefox > uBlock Origin > My filters\n"
+printf "      and then import 'ublock-filters.txt'\n"
