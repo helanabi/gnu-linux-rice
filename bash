@@ -22,7 +22,7 @@ alias view='nvim -R'
 alias clip='xclip -sel clipboard'
 
 function mkbkp {
-    tar -cz  ~/.ssh ~/docs ~/notes ~/pics/personal |
+    tar -cz  ~/.ssh ~/docs ~/notes |
 	gpg -c --cipher-algo AES256 > ~/tmp/backup-$(date +%F).tgz.gpg
 }
 
