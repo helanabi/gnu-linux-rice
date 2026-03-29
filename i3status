@@ -34,12 +34,13 @@ ethernet _first_ {
 }
 
 battery all {
-        format = "BAT: %status"
+        format = "BAT: %status %percentage %remaining"
         format_down = "BAT: X"
         status_chr = "⚡"
-        status_bat = "unplugged"
+        status_bat = "!"
         status_unk = "?"
-        status_full = "FULL"
+        status_full = "F"
+	status_idle = "I"
 }
 
 disk "/" {
