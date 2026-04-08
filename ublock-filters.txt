@@ -6,3 +6,12 @@ www.aliexpress.com##._3FMk3._3pKkO._1uFUt
 
 ! Mar 27, 2026 https://www.facebook.com
 www.facebook.com##.x1y1aw1k.xwib8y2.x9otpla.x1wsgfga.x1ja2u2z.x1n2onr6.x9f619 > .xhfbhpw.x1rohswg.x1y1aw1k.xwib8y2.xat24cr.x9f619.xw2csxc.xjx87ck.x1yqm8si.xfk6m8.x1pq812k.x1ja2u2z.x1n2onr6.x10wlt62.xdt5ytf.x78zum5.x5lxg6s.x1q594ok.xb57i2i
+
+! Apr 4, 2026 https://www.aliexpress.com
+||ae-pic-a1.aliexpress-media.com/kf/Sd4b8b26b77d94bd891e89a8665e4b5e47/2424x917.png$image
+
+! Apr 7, 2026 https://chatgpt.com
+chatgpt.com##.bottom-\[calc\(100\%\+6\*var\(--spacing\)\+var\(--thread-scroll-to-bottom-banner-offset\,0px\)\)\].print\:hidden.duration-150.transition-discrete.bg-clip-padding.border.rounded-full.justify-center.items-center.cursor-pointer.translate-x-1\/2.w-8.h-8.flex.z-30.inset-e-1\/2.absolute.bg-token-main-surface-primary.border-token-border-default.text-token-text-secondary
+
+! Apr 7, 2026 https://www.jumia.ma
+||ma.jumia.is/cms/000_2026/00003_Mars/Spring/GEN/BGFR.jpg$image
