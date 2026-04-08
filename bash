@@ -21,9 +21,19 @@ alias tree='tree -C'
 alias view='nvim -R'
 alias clip='xclip -sel clipboard'
 
-function mkbkp {
-    tar -cz  ~/.ssh ~/docs ~/notes |
-	gpg -c --cipher-algo AES256 > ~/tmp/backup-$(date +%F).tgz.gpg
+function bkp {
+    tarball=~/tmp/backup-$(date +%F).tgz.gpg
+    tar -cz  ~/.ssh ~/docs ~/notes | gpg -c --cipher-algo AES256 > $tarball
+
+    for dir in ~/code \
+	       ~/dl \
+	       ~/islam \
+	       ~/.local/share/stardict \
+	       ~/pics \
+	       $tarball
+    do
+	rsync -avh --delete --exclude=.venv "$dir" /mnt/drive/
+    done
 }
 
 function wuqut {
