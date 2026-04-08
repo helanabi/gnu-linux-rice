@@ -1,4 +1,3 @@
-aria2
 base
 base-devel
 bluez
@@ -18,12 +17,11 @@ i3lock
 i3status
 intel-ucode
 jq
+libreoffice-fresh
 linux
 linux-firmware
-linux-headers
 man-db
 man-pages
-mesa-utils
 mpv
 mupdf
 neovim
@@ -38,6 +36,7 @@ pipewire-pulse
 python
 python-pip
 python-pipx
+rsync
 sdcv
 shellcheck
 sudo
