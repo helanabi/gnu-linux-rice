@@ -35,8 +35,3 @@ function bkp {
 	rsync -avh --delete --exclude=.venv "$dir" /mnt/drive/
     done
 }
-
-function wuqut {
-    out="$(tail -1 ~/.local/share/wuqut/data.csv | tr ',' '\n')\n"
-    grep -C10 "$(date +%H):.." <(printf "$out") || printf "$out"
-}
