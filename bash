@@ -13,6 +13,7 @@ alias e='setsid emacs'
 alias grep='grep --color=auto'
 alias ll='ls -lah'
 alias ls='ls --color=auto'
+alias mkresume='pandoc -V geometry:margin=0.7in -V fontsize=10pt'
 alias py='python -q'
 alias recon='sudo systemctl restart NetworkManager'
 alias sdcv='sdcv --color'
@@ -35,3 +36,4 @@ function bkp {
 	rsync -avh --delete --exclude=.venv "$dir" /mnt/drive/
     done
 }
+
