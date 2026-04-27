@@ -9,6 +9,7 @@
  '(desktop-save-mode t)
  '(fringe-mode '(5 . 0) nil (fringe))
  '(menu-bar-mode nil)
+ '(package-selected-packages '(markdown-mode))
  '(save-place-mode t)
  '(scroll-bar-mode nil)
  '(tool-bar-mode nil))
