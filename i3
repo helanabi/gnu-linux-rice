@@ -190,9 +190,11 @@ bar {
         separator_symbol " | "
 }
 
+# Sync graphical environment with systemd user services
+exec --no-startup-id dbus-update-activation-environment --systemd DISPLAY XAUTHORITY
+
 # Set wallpaper
 exec --no-startup-id feh --no-fehbg -z --bg-fill ~/pics/wallpapers
 
 # Launch compositor
 exec --no-startup-id picom
-
