@@ -8,7 +8,10 @@
 PS1='\[\e[1m\]\[\e[36m\]\w\[\e[0m\]\$ '
 
 
+alias bt='sudo systemctl start bluetooth'
+alias clip='xclip -sel clipboard'
 alias diff='diff --color=auto'
+alias bt-earbuds='bluetoothctl connect "78:15:2D:5F:E7:6A"'
 alias e='setsid emacs'
 alias grep='grep --color=auto'
 alias ll='ls -lah'
@@ -20,7 +23,6 @@ alias sdcv='sdcv --color'
 alias susp='systemctl suspend'
 alias tree='tree -C'
 alias view='nvim -R'
-alias clip='xclip -sel clipboard'
 
 function bkp {
     tarball=~/tmp/backup-$(date +%F).tgz.gpg
