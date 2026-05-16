@@ -10,6 +10,7 @@ emacs
 feh
 firefox
 flameshot
+gimp
 git
 grub
 i3-wm
@@ -26,8 +27,11 @@ mpv
 mupdf
 neovim
 networkmanager
+oath-toolkit
+obs-studio
 openssh
 pamixer
+pandoc-cli
 pavucontrol
 peek
 picom
@@ -40,7 +44,12 @@ rsync
 sdcv
 shellcheck
 sudo
+sxiv
 texinfo
+texlive-fontsrecommended
+texlive-latex
+texlive-latexrecommended
+texlive-xetex
 thermald
 tlp
 tree
